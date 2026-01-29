@@ -4,7 +4,7 @@
 
 - **Mike** → `branch_mike`
 - **Komoé** → `branch_komoe`
-- **Yakoub** → `branch_yakou`
+- **Yakoub** → `branch_yacoub`
 - **Sery** → `branch_sery`
 
 ---
@@ -17,8 +17,8 @@
 | **Portfolio** | Mike | `branch_mike` |
 | **À propos** | Komoé | `branch_komoe` |
 | **Contact** (page) | Komoé | `branch_komoe` |
-| **Contact** (formulaire) | Yakoub | `branch_yakou` |
-| **Navbar** | Yakoub | `branch_yakou` |
+| **Contact** (formulaire) | Yakoub | `branch_yacoub` |
+| **Navbar** | Yakoub | `branch_yacoub` |
 | **Services** | Sery | `branch_sery` |
 | **Footer** | Sery | `branch_sery` |
 
@@ -34,12 +34,12 @@ eridanus-corporation/
 │   │   ├── 📂 pages/
 │   │   │   ├── index.html          (Mike)
 │   │   │   ├── about.html          (Komoé)
-│   │   │   ├── contact.html        (Yakoub)
+│   │   │   ├── contact.html        (Yacoub)
 │   │   │   ├── services.html       (Sery)
 │   │   │   └── portfolio.html      (Mike)
 │   │   │
 │   │   ├── 📂 includes/
-│   │   │   ├── navbar.html         (Yakoub)
+│   │   │   ├── navbar.html         (Yacoub)
 │   │   │   └── footer.html         (Sery)
 │   │   │
 │   │   └── base.html               (Template de base - commun)
@@ -48,7 +48,7 @@ eridanus-corporation/
 │   │   ├── 📂 css/
 │   │   │   ├── index.css           (Mike)
 │   │   │   ├── about.css           (Komoé)
-│   │   │   ├── contact.css         (Yakoub)
+│   │   │   ├── contact.css         (Yacoub)
 │   │   │   ├── services.css        (Sery)
 │   │   │   ├── portfolio.css       (Mike)
 │   │   │   └── style.css           (Styles communs)
@@ -56,7 +56,7 @@ eridanus-corporation/
 │   │   ├── 📂 js/
 │   │   │   ├── index.js            (Mike)
 │   │   │   ├── about.js            (Komoé)
-│   │   │   ├── contact.js          (Yakoub)
+│   │   │   ├── contact.js          (Yacoub)
 │   │   │   ├── services.js         (Sery)
 │   │   │   └── main.js             (JS commun)
 │   │   │
