@@ -70,7 +70,7 @@ projet-django/
 
 🔧 Installation et Configuration
 1️⃣ Cloner le projet
-bashgit clone https://github.com/VOTRE-USERNAME/VOTRE-REPO.git
+bashgit clone [https://github.com/VOTRE-USERNAME/VOTRE-REPO.git](https://github.com/MIKEL0788/eridanus_corporation.git)
 cd VOTRE-REPO
 2️⃣ Créer un environnement virtuel
 bash# Windows
