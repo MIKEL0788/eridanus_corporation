@@ -1,4 +1,4 @@
-# 🌟 Eridanus Corporation - Site Web Django
+# Eridanus Corporation
 
 ## 👥 Équipe
 
