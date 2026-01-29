@@ -183,6 +183,55 @@ git merge main
 
 ---
 
+
+Voici comment envoyer ton travail de branch_mike vers main :
+🚀 Méthode Recommandée (avec Pull Request)
+bash# 1. Assure-toi d'être sur ta branche
+git checkout branch_mike
+
+# 2. Sauvegarde ton travail
+git add .
+git commit -m "Ajout pages accueil et portfolio"
+
+# 3. Envoie sur GitHub
+git push origin branch_mike
+Ensuite sur GitHub :
+
+Va sur ton repo GitHub
+Tu verras un bouton "Compare & pull request" (jaune)
+Clique dessus
+Ajoute une description (ex: "Pages accueil et portfolio terminées")
+Clique "Create pull request"
+Clique "Merge pull request"
+Clique "Confirm merge"
+
+✅ C'est fait ! Ton code est maintenant dans main
+
+⚡ Méthode Rapide (directement)
+Si tu veux faire ça direct sans passer par GitHub :
+bash# 1. Va sur main
+git checkout main
+
+# 2. Récupère les dernières mises à jour
+git pull origin main
+
+# 3. Fusionne ta branche
+git merge branch_mike
+
+# 4. Envoie sur GitHub
+git push origin main
+
+# 5. Retourne sur ta branche
+git checkout branch_mike
+
+💡 Quelle méthode choisir ?
+
+Pull Request (1ère méthode) → Meilleure pour travailler en équipe, les autres peuvent vérifier ton code
+Merge direct (2ème méthode) → Plus rapide mais risque de conflits
+
+
+
+
 ## 🆘 Commandes Git Essentielles
 
 ```bash
