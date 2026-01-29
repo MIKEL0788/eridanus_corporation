@@ -4,7 +4,7 @@
 
 - **Mike** → `branch_mike`
 - **Komoé** → `branch_komoe`
-- **Yakoub** → `branch_yakou`
+- **Yakoub** → `branch_yacoub`
 - **Sery** → `branch_sery`
 
 ---
