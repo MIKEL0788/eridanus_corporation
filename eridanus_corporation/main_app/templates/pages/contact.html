@@ -8,16 +8,69 @@
     <link rel="stylesheet" href="{% static 'css/contact.css' %}">
 </head>
 <body>
-    <h1>Nous contacter</h1>
-    <p>Vous avez des questions ? N'hésitez pas à nous contacter.</p>
-    
-    <div class="contact-info">
-        <h2>Informations de contact</h2>
-        <p>Email: contact@eridanus-corporation.com</p>
-        <p>Téléphone: +225 XX XX XX XX XX</p>
-        <p>Adresse: Abidjan, Côte d'Ivoire</p>
+    <div class="container">
+        <header class="page-header">
+            <h1>Contactez-nous</h1>
+            <p>Nous sommes là pour répondre à toutes vos questions</p>
+        </header>
+
+        <div class="contact-content">
+            <section class="contact-info">
+                <h2>Nos Coordonnées</h2>
+                
+                <div class="info-card">
+                    <div class="icon">📧</div>
+                    <div class="details">
+                        <h3>Email</h3>
+                        <p>contact@eridanus-corporation.com</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon">📱</div>
+                    <div class="details">
+                        <h3>Téléphone</h3>
+                        <p>+225 07 XX XX XX XX</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon">📍</div>
+                    <div class="details">
+                        <h3>Adresse</h3>
+                        <p>Cocody, Abidjan<br>Côte d'Ivoire</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon">🕒</div>
+                    <div class="details">
+                        <h3>Horaires</h3>
+                        <p>Lun - Ven: 8h00 - 18h00<br>Sam: 9h00 - 13h00</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-message">
+                <h2>Laissez-nous un message</h2>
+                <p class="note">
+                    <strong>Note :</strong> Le formulaire de contact sera géré par Yakoub. 
+                    Cette page présente les informations de contact.
+                </p>
+                <div class="cta-button">
+                    <a href="#" class="btn-primary">Accéder au formulaire</a>
+                </div>
+            </section>
+        </div>
+
+        <section class="map-section">
+            <h2>Notre Localisation</h2>
+            <div class="map-placeholder">
+                <p>🗺️ Carte à venir</p>
+            </div>
+        </section>
     </div>
-    
+
     <script src="{% static 'js/contact.js' %}"></script>
 </body>
 </html>
