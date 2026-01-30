@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - Eridanus Corporation</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+<body>
+    <div class="container">
+        <header class="page-header">
+            <h1>À propos d'Eridanus Corporation</h1>
+        </header>
+
+        <section class="intro">
+            <h2>Qui sommes-nous ?</h2>
+            <p>
+                Eridanus Corporation est une entreprise innovante spécialisée dans 
+                le développement de solutions web modernes et performantes.
+            </p>
+        </section>
+
+        <section class="mission">
+            <h2>Notre Mission</h2>
+            <p>
+                Notre mission est de fournir des solutions digitales de haute qualité 
+                qui transforment les idées en réalité et propulsent les entreprises 
+                vers le succès.
+            </p>
+        </section>
+
+        <section class="values">
+            <h2>Nos Valeurs</h2>
+            <div class="values-grid">
+                <div class="value-item">
+                    <h3>Innovation</h3>
+                    <p>Nous repoussons constamment les limites de la technologie.</p>
+                </div>
+                <div class="value-item">
+                    <h3>Excellence</h3>
+                    <p>Nous visons l'excellence dans chaque projet.</p>
+                </div>
+                <div class="value-item">
+                    <h3>Collaboration</h3>
+                    <p>Nous travaillons ensemble pour atteindre nos objectifs.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="{% static 'js/about.js' %}"></script>
+</body>
+</html>
