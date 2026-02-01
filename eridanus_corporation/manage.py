@@ -6,11 +6,11 @@ import sys
 
 def main():
     """Run administrative tasks."""
-<<<<<<< branch_komoe
+
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
-=======
+
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'eridanus_corporation.settings')
->>>>>>> main
+
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
@@ -24,7 +24,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-<<<<<<< branch_komoe
 
-=======
->>>>>>> main

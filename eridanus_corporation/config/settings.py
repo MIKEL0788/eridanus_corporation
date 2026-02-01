@@ -37,10 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
- branch_komoe
+ #branch_komoe
     'main_app',
-=======
->>>>>>> main
+#======
 ]
 
 MIDDLEWARE = [
@@ -53,11 +52,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-<<<<<<< branch_komoe
+#<<<<<<< branch_komoe
 ROOT_URLCONF = 'config.urls'
-=======
+#=======
 ROOT_URLCONF = 'eridanus_corporation.urls'
->>>>>>> main
+#>>>>>>> main
 
 TEMPLATES = [
     {
@@ -74,11 +73,11 @@ TEMPLATES = [
     },
 ]
 
-<<<<<<< branch_komoe
+#<<<<<<< branch_komoe
 WSGI_APPLICATION = 'config.wsgi.application'
-=======
+#=======
 WSGI_APPLICATION = 'eridanus_corporation.wsgi.application'
->>>>>>> main
+#>>>>>> main
 
 
 # Database
@@ -132,7 +131,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-<<<<<<< branch_komoe
-
-=======
->>>>>>> main
