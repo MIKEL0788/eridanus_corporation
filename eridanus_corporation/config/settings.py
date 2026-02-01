@@ -55,7 +55,7 @@ MIDDLEWARE = [
 #<<<<<<< branch_komoe
 ROOT_URLCONF = 'config.urls'
 #=======
-ROOT_URLCONF = 'eridanus_corporation.urls'
+ROOT_URLCONF = 'config.urls'
 #>>>>>>> main
 
 TEMPLATES = [
@@ -76,7 +76,7 @@ TEMPLATES = [
 #<<<<<<< branch_komoe
 WSGI_APPLICATION = 'config.wsgi.application'
 #=======
-WSGI_APPLICATION = 'eridanus_corporation.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 #>>>>>> main
 
 
