@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% block title %} {% endblock %}
+  </head>
+  <body>
+        <header>
+                <h1>ERIDANUS</h1>
+                <nav>
+                    <a href="{%  url 'blog.home'  %}">Accueil</a>
+                    <a href="{%  url 'blog.home' %}">A propos</a>
+                    <a href="{% {% url 'blog.home' %} %}">Services</a>
+                    <a href="{% {% url 'blog.home' %} %}">Portfolio</a>
+                    <a href="{% {% url 'blog.home' %} %}">Services</a>
+                    <a href="{% {% url 'blog.home' %} %}">Contact</a>
+                    <a href="{% url  %}"><button>Demarer votre projet</button><a/>
+                </nav>
+
+        </header>
+    
+  </body>
+</html>
