@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.urls import path
+from .views import BlogCreateView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('',BlogCreateView.as_view(),name="contact")
 ]

@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title %} <title>Contact</title>{% endblock %}
+
+{% block content %} 
+    <div class="contenu-contact" id="contact">
+        <h5>Contact</h5>
+        <h1>Demarrons votre projet</h1>
+        <p>
+            Prêt à transformer votre vision en réalité digitale ? Discutons de vos besoins et construisons 
+            ensemble votre solution sur mesure.
+        </p>
+        <section class="email">
+            <img src="">
+            <p>Email</p>
+            <a href="contact@eridanus.corp">contact@eridanus.corp</a>
+        </section>
+
+        <section class="telephone">
+            <img src="">
+            <p>Telephone</p>
+            <a href="">+225 0788939465</a>
+            <a href="">+225 0774591141</a>
+        </section>
+
+        <section class="Bureau">
+            <img src="">
+            <p>Bureau</p>
+            <a href="">Yamoussokro, Abidjan</a>
+            <a href="">Disponible dans le monde entier</a>
+        </section>
+
+        <section>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </section>
+    </div>
+    <div class="formulaire">
+        <form method="post">
+            <!-- en css , input[name=Nom]{tu code} -->
+            {% csrf_token  %}
+            <div class="form.partie">
+                
+                <label>Nom:</label>
+                {{ form.Nom }}
+                
+                <label>Email:</label>
+                {{ form.Email }}
+            </div>
+            <label>Entreprise:</label>
+            {{ form.Entreprise }}
+        
+            <label>type de projet:</label>
+            {{ form.type_demande }}
+
+            <label>Message:</label>
+            {{ form.message }}
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+{% endblock %}

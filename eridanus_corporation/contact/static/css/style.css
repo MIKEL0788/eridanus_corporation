@@ -1,0 +1,24 @@
+header
+{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-between;
+    margin:auto;
+}
+nav
+{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.contenu-contact
+{
+    border: 2px solid black;
+}
+
+.formulaire
+{
+    border: 2px solid black;
+}

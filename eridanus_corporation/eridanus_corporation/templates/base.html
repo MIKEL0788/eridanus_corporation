@@ -1,25 +1,25 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
     {% block title %} {% endblock %}
   </head>
   <body>
         <header>
                 <h1>ERIDANUS</h1>
                 <nav>
-                    <a href="{%  url 'blog.home'  %}">Accueil</a>
-                    <a href="{%  url 'blog.home' %}">A propos</a>
-                    <a href="{% {% url 'blog.home' %} %}">Services</a>
-                    <a href="{% {% url 'blog.home' %} %}">Portfolio</a>
-                    <a href="{% {% url 'blog.home' %} %}">Services</a>
-                    <a href="{% {% url 'blog.home' %} %}">Contact</a>
-                    <a href="{% url  %}"><button>Demarer votre projet</button><a/>
+                    <a href="{% url "contact" %}#contact">Accueil</a>
+                    <a href="{% url "Apropos" %}#Apropos">A propos</a>
+                    <a href="{% url "services" %}#services">Services</a>
+                    <a href="{% url "Portfolio" %}#Portfolio">Portfolio</a>
+                    <a href="#contact"><button>Demarer votre projet</button><a/>
                 </nav>
 
         </header>
-    
+        {% block content %} {% endblock %}
   </body>
 </html>

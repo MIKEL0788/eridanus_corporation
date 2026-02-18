@@ -9,11 +9,17 @@ NOM_CHOIX = [
 ]
 
 # Create your models here.
-class Blog(models.Model):
+class Formulaire(models.Model):
     Nom = models.CharField(max_length=255 , verbose_name="Nom")
     Email = models.EmailField(max_length=255)
     Entreprise = models.CharField(max_length=255,unique=True)
-    Type_projet = models.Choices(choices=NOM_CHOIX,label="Type de développement")
+    
+    type_demande = models.CharField(
+        max_length=50,
+        choices=NOM_CHOIX,
+        default=''    
+    )
+    
     message = models.TextField()
     created = models.DateTimeField(auto_now_add=True)
-    lastcreated = models.DateTimeField(auto_now=True)
+    lse3astcreated = models.DateTimeField(auto_now=True)
